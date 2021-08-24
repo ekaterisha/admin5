@@ -2893,7 +2893,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #4e73df;
+  color: black;
   text-decoration: none;
 }
 
@@ -10798,6 +10798,10 @@ a:focus {
   position: relative;
   height: 10rem;
   width: 100%;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
 }
 
 @media (min-width: 768px) {
